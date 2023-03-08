@@ -32,8 +32,8 @@ void menu(int& i){
 void print(char array[]){
 	int i{0};
 	do{
-		std::cout << array[i++];
-	}while(i < strlen(array) );
+		std::cout << array[i];
+	}while(i++ < strlen(array) -1 );
 	std::cout << std::endl;
 
 }
